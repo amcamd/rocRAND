@@ -53,7 +53,7 @@ create_version_vars(hiprand 1 7 1)
 create_version_vars(rocrand 1 7 1)
 
 # AMD targets
-set(AMDGPU_TARGETS gfx803;gfx900 CACHE STRING "List of specific machine types for library to target")
+set(AMDGPU_TARGETS gfx906 CACHE STRING "List of specific machine types for library to target")
 
 # Tools
 add_subdirectory(tools)
